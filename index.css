@@ -11,6 +11,7 @@ body{
 	color:black;
 	clear:both;
 	position: fixed;
+    position: absolute;
     left:0;
 	top:0%;
 	height:50px;
