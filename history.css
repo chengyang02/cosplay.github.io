@@ -7,6 +7,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -69,7 +70,7 @@ body {
   right: 30px;
   border: tomato;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color:transparent transparent transparent white ;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -94,7 +95,7 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: hsl(0, 0%, 95%);
   position: relative;
   border-radius: 6px;
 }
