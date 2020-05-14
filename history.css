@@ -8,6 +8,21 @@ body {
 }
 
 
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -106,7 +121,6 @@ body {
   .timeline::after {
   left: 31px;
   }
-  
   /* Full-width containers */
   .container {
   width: 100%;
